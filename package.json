@@ -1,0 +1,16 @@
+{
+    "name": "Storefront-docs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Dreamvention/storefront-docs.git",
+    "author": "dmitriyzhuk <dmitriyzhuk@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vuepress dev"
+    },
+    "dependencies": {
+        "vuepress": "^0.14.11",
+        "webpack-dev-middleware": "^3.6.2",
+        "webpack-dev-server": "^3.3.1"
+    }
+}

@@ -11,12 +11,12 @@ heroImage: /logo.png
 actionText: Get Started →
 actionLink: /guide/
 features:
-  - title: Backend agnostic
+  - title: Works with your site
     details: Compatible with Wordpress, Woocommerce, Shopify, Magento, Drupal, Joomla, Opencart and more.
-  - title: Progressive technologies
+  - title: Build for the future
     details: Single Page application (SPA) and Progressive Web App (PWA) out of the box.
-  - title: Ready for Headless
-    details: Preconfigured to work with your favorite headless CMS like contentful.
+  - title: Simply beautiful
+    details: It just works. We took out the hard stuff and made it easy to use. 
 
 footer: MIT Licensed | Copyright © 2018-present Dreamvention
 ---

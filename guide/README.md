@@ -9,9 +9,15 @@ meta:
     content: vuefront, vuejs, nuxt, agnostic framework, documentation
 ---
 
-# Vuefront Documentation
+# What is VueFront?
 
-Vuefront is a open-source vue powered agnistic frontend. Which means if you already have a blog or an ecommerce site, you most likely can use it streight out of the box. It is built on Vue and works great together with Nuxt or Vue Cli. It is by default an SPA (single page application) with a option to turn into a PWA (progressiv web app).
+> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.” ~ Steve Jobs
+
+__For website owners__
+VueFront lets you lets your old fashioned site into the future. You get to keep your current admin panel while upgrading to a compleatly new beautiful frontend, build on new technology: extreamly fast, no more page refresh, can work off-line, can be saved to homescreen like an mobile app and it's unbelievably extensible.
+
+__For developers__
+VueFront is a free open-source vue powered agnistic frontend framework. It works straight out of the box with the most popular CMS like wordpress & woocommerce, magenta, opencart, prestashop. It is built on Vuejs and works great together with Nuxt or Vue Cli. It is by default an SPA (single page application) with a option to turn into a PWA (progressiv web app).
 
 ::: tip
 Want to see how your current site looks in VueFront? Follow our simple [5 minute setup](/guide/setup.html)
@@ -32,13 +38,15 @@ Soon to come...
 - BigCommerce
 - Volusion
 
-## Why use VueFront
+## Why use VueFront?
 
-Two words: Decoupling and Symplicity... well three if you count 'end'
+> “Everything should be made as simple as possible, but not simpler.” ~ Albert Einstein
+
+In the core of VueFront lies the concept __Decoupling and Symplicity__.
 
 In modern web development, monolithic applications have been divided into smaller simpler parts, where each one is often outsorced to specilized teams and services. VueFront is one of them. It allows you to decouple your monolithic web application, which could be your current CMS like wordpress or shopify and outsource the frontend. You get a new shiny SPA front, while keeping your usual backend and your business flow.
 
-**With this in mind, VueFront is:**
+**Here are five key features of VueFront, that will make your mouth**
 
 - Backend Agnostic (works with many website/blogging/eccomerce CMS out of the box).
 - Modern (Built with Vue on Nuxt or Vue Cli, utilizing GraphQL).

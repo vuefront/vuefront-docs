@@ -1,5 +1,5 @@
 ---
-title: Components 
+title: Technology Stack 
 lang: en-US
 sidebarDepth: 2
 meta:
@@ -9,7 +9,20 @@ meta:
     content: vuefront, vuejs, nuxt, agnostic framework, documentation
 ---
 
-# Components
+# Technology Stack
+Client-side
+- Vue
+- Vuex
+- Apollo
+- Nuxt (or Vue Cli)
+- Rollup
+- PostCSS
+
+Server-side
+- GraphQL
+- NodeJs (optional for Server-Side Rendering)
+
+## Component Structure
 VueFront consists of __Components__ (Vue) and the __Store__ (Data, fetched from your current CMS). When designing a new theme or adding modifications to an existing one, you will edit only the components folder. 
 
 The components folder includes 3 subfolders: elements, modules, templates. Every subfolder also includes three folders: blog, store, common. 
@@ -18,7 +31,6 @@ The components folder includes 3 subfolders: elements, modules, templates. Every
 - __Store__: includes all components connected to the store like product and categories (store)
 - __Common__: includes all components that can be used for blog and store like reviews or breadcrumbs.
 
-## Component Structure
 ### Elements
 In esence VueFront consists of Component elements, which then are used by Component templates to compose a page. In most cases you will be extending these vue files to modify the look and feel of your VueFront theme.
 ```

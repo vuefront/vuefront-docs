@@ -14,7 +14,7 @@ meta:
 > “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.” ~ Steve Jobs
 
 __For website owners__
-VueFront lets you lets your old fashioned site into the future. You get to keep your current admin panel while upgrading to a compleatly new beautiful frontend, build on new technology: extreamly fast, no more page refresh, can work off-line, can be saved to homescreen like an mobile app and it's unbelievably extensible.
+VueFront lets you lets your old fashioned site into the future. You get to keep your current admin panel while upgrading to a compleatly new beautiful frontend, build on new technology: extreamly fast, no more page refresh, can work off-line, can be saved to homescreen like an mobile app and it's unbelievably extensible
 
 __For developers__
 VueFront is a free open-source vue powered agnistic frontend framework. It works straight out of the box with the most popular CMS like wordpress & woocommerce, magenta, opencart, prestashop. It is built on Vuejs and works great together with Nuxt or Vue Cli. It is by default an SPA (single page application) with a option to turn into a PWA (progressiv web app).

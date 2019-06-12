@@ -3,7 +3,7 @@ title: VueFront
 lang: en-US
 meta:
   - name: description
-    content: Vue powered agnostic frontend for your old fashioned Blog and Ecommerce site.
+    content: Vue powered agnostic frontend for your old fashioned Blog and E-commerce site.
   - name: keywords
     content: Vue, VueFront, SPA, PWA, Nuxt, agnostic, frontend, framework
 home: true

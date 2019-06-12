@@ -1,5 +1,5 @@
 ---
-title: CMS connect
+title: Config file
 lang: en-US
 sidebarDepth: 2
 meta:
@@ -9,4 +9,4 @@ meta:
     content: vuefront, vuejs, nuxt, agnostic framework, documentation
 ---
 
-# How to develop a CMS connect App
+# Config file

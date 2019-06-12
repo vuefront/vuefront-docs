@@ -1,5 +1,5 @@
 ---
-title: Store
+title: App development
 lang: en-US
 sidebarDepth: 2
 meta:
@@ -9,4 +9,4 @@ meta:
     content: vuefront, vuejs, nuxt, agnostic framework, documentation
 ---
 
-# Store
+# App development

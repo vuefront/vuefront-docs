@@ -17,7 +17,16 @@ module.exports = {
         docsDir: 'docs',
         sidebar: {
             "/guide/": getSideBar(),
-            "/develop/": getSideBar(),
+            "/develop/": [{
+                title: "Develop",
+                collapsable: false,
+                children: [
+                    '/develop/',
+                    '/develop/config',
+                    '/develop/theme',
+                    '/develop/app'
+                ]
+            }],
             "/community/": getSideBar(),
             "/cms/": [{
                 title: "CMS Extensions",
@@ -33,6 +42,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
+            { text: 'Develop', link: '/develop/' },
             { text: 'CMS Connect', link: '/cms/' },
             { text: 'Themes', link: '/themes/' },
             { text: 'Apps', link: '/apps/' },
@@ -50,16 +60,6 @@ function getSideBar() {
             children: [
                 '/guide/',
                 '/guide/setup'
-            ]
-        },
-        {
-            title: "Develop",
-            collapsable: false,
-            children: [
-                '/develop/',
-                '/develop/store',
-                '/develop/theme',
-                '/develop/cms'
             ]
         },
         {

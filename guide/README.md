@@ -8,72 +8,71 @@ meta:
   - name: keywords
     content: vuefront, vuejs, nuxt, agnostic framework, documentation
 ---
-
-# What is VueFront?
+# VueFront - CMS Agnostic Front-end
+## What is VueFront?
 
 > “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.” ~ Steve Jobs
 
-__For website owners__
-VueFront lets you lets your old fashioned site into the future. You get to keep your current admin panel while upgrading to a compleatly new beautiful frontend, build on new technology: extreamly fast, no more page refresh, can work off-line, can be saved to homescreen like an mobile app and it's unbelievably extensible
+VueFront is a Vue powered CMS agnostic front-end framework that allows owners and developers of an old-fashioned blog or e-commerce site to quickly switch to a SPA progressive web app. 
 
-__For developers__
-VueFront is a free open-source vue powered agnistic frontend framework. It works straight out of the box with the most popular CMS like wordpress & woocommerce, magenta, opencart, prestashop. It is built on Vuejs and works great together with Nuxt or Vue Cli. It is by default an SPA (single page application) with a option to turn into a PWA (progressiv web app).
+It is open-source with MIT license so you are free to modify it as you wish.
 
 ::: tip
-Want to see how your current site looks in VueFront? Follow our simple [5 minute setup](/guide/setup.html)
+Want to see how your current site looks in VueFront? Follow our simple [5-minute setup](/guide/setup.html)
 :::
 
-Currently we maintaine support for the following website/blogging and E-commerce CMS backends:
+## Who is it for?
 
+Anyone from a basic Wordpress & Woocommerce user, OpenCart or Magenta webshop owner to a professional PrestaShop or Shopify Developer. 
+
+You can install and use VueFront today. The setup takes less than 5 minutes. You won't need to delete anything or make costly migrations. All you need is a computer with Nodejs & Yarn (or NPM) installed and access to your old-fashioned website files. 
+
+## What CMS's are supported
+
+Currently, we maintain support for the following website/blogging and E-commerce CMS backends:
 - Wordpress + WooCommerce
 - OpenCart + Blog Module
+
+In development...
 - Prestashop + PrestaBLog
+- Magento
 
 Soon to come...
-
-- Magento
 - Joomla
 - Drupal + DrupalCommerce
 - Shopify
 - BigCommerce
 - Volusion
 
-## Why use VueFront?
-
+## What do I get out-of-the-box?
 > “Everything should be made as simple as possible, but not simpler.” ~ Albert Einstein
 
-In the core of VueFront lies the concept __Decoupling and Symplicity__.
+VueFront was created as a fully functional Blog & E-commerce web app. You get a working new single-page application with the possibility to turn it into a progressive web app. 
 
-In modern web development, monolithic applications have been divided into smaller simpler parts, where each one is often outsorced to specilized teams and services. VueFront is one of them. It allows you to decouple your monolithic web application, which could be your current CMS like wordpress or shopify and outsource the frontend. You get a new shiny SPA front, while keeping your usual backend and your business flow.
+In other words, you get a cool new website that is: 
 
-**Here are five key features of VueFront, that will make your mouth**
+- Super fast
+- SEO friendly
+- Offline ready
+- Modern 
 
-- Backend Agnostic (works with many website/blogging/eccomerce CMS out of the box).
+For more tech-savvy ones:
+
+**Here are five key features of VueFront, that will make your mouth water**
+
+- Backend Agnostic (works with many websites/blogging/eCommerce CMS out of the box).
 - Modern (Built with Vue on Nuxt or Vue Cli, utilizing GraphQL).
-- An SPA and PWA (Single Page Application & Progressive Web App).
+- SPA and PWA (Single Page Application & Progressive Web App).
 - Extensible (allows Themes, Apps, and easy upgrades).
-- Well documented (we know how importent documentation is).
+- Well documented (we know how important documentation is).
 
-## Backend Agnostic
+## How to develop for it?
 
-Infographics here...
+One of its key features is extensibility. You can create custom themes and apps for VueFront or use third-party developed. 
 
-1. Frontend Web App is built with Vue on Nuxt or Vue Cli, which implements SPA and PWA.
-2. The store is managed by Vuex and an Apollo client
-3. On the Backend a CMS corresponding module is installed and a GraphQL API is setup via Apollo
-4. VueFront makes all requests to the Apollo API endpoint and displays the data accordingly.
+When developing for VueFront you won't be editing the core files, rather extending them to add new features and themes. This makes future upgrades simple, keeping your codebase up to date. You get code splitting, asset optimization, progressive images, and link prefetching out of the box.
 
-### What are the trade-offs?
-
-Since we are implementing one standard for all websites/blogs/ecommerce sites, there must be some trade-offs.
-
-- Unique features of a CMS may not be avalible out of the box.
-- Customizations done to the old frontend will have to be reimplemented on the new VueFront
-- A higher learning curve for developers used to old CMSs, mostly php.
-
-All of these limitations are being removed thanks to a growing community of VueFront creators, who develope new extensions and features, improving the VueFront ecosystem.
-
-At the end of the day, an open-source project is all about the community around it.
+For more information read the [Developer's guide](/develop/)
 
 ::: tip
 Want to do more with VueFront? Become a [VueFront Creator](/support.html).

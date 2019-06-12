@@ -10,7 +10,7 @@ meta:
 ---
 
 # Quick Setup
-Try our 5 minute setup
+Try our 5-minute setup
 
 1. Install CMS Connect App. [Download and install your CMS Connect app →](/cms/)
 
@@ -25,14 +25,14 @@ yarn dev
 
 ## Step 1. Install CMS Connect App
 
-For VueFront to have access to your website data, you need to install a CMS Connect App that will provide a GraphQL API endpoint. VueFront will then to fetch all the data from your website like any other webapp. CMS Connect APP also adds the required functionality such as submiting reviews, adding products to cart, checkout etc.
+For VueFront to have access to your website data, you need to install a CMS Connect App that will provide a GraphQL API endpoint. VueFront will then to fetch all the data from your website like any other web app. CMS Connect APP also adds the required functionality such as submitting reviews, adding products to cart, checkout, etc.
 
 - Wordpress/Woocommerce
 - OpenCart
 
 [view all CMS Connect Apps →](/cms/)
 
-The CMS Connect App will provide you with your API Url. You will need it on the next step, when installing VueFront
+The CMS Connect App will provide you with your API Url. You will need it on the next step when installing VueFront
 
 ::: tip
 Didn't find a `CMS Connect` App for your current website. No biggy. Simply [send us a request](/support.html) and we will be happy to create one for you. 
@@ -40,22 +40,15 @@ Didn't find a `CMS Connect` App for your current website. No biggy. Simply [send
 
 ## Step 2. Install VueFront
 
-VueFront is a Single page application that needs to be hosted on a NodeJs server for Server-side rendering. It requires the follwoing:
+VueFront is a Single page application that needs to be hosted on a NodeJs server for Server-side rendering. It requires the following:
 
 - nodejs >= 8
 - yarn (or nmp)
 
-
-VueFront consists of the following modules:
-
-1. [vuefront (Github)](https://github.com/vuefront/vuefront)
-2. [vuefront-nuxt (Github)](https://github.com/vuefront/vuefront-nuxt)
-3. [vuefront-cli (Github)](https://github.com/vuefront/vuefront-cli)
-
-After you have installed the CMS extension, activated it and recieved the API Url, you can now install VueFront.
+After you have installed the CMS extension, activated it and received the **CMS Connect Url**, you can now install VueFront.
 
 ```bash
-# Create VueFront app. replace <project-name> with vuefront
+# Create VueFront app. replace <project-name> with vuefront or ./ for selected folder
 yarn create vuefront-app <project-name>
 # OR npx create-vuefront-app <project-name>
 
@@ -69,13 +62,18 @@ After you have launched the app in `dev mode`, you should see your site at [http
 
 
 ### Create-vuefront-app
-For a simpler installation process we have provided [create-vuefront-app](https://github.com/vuefront/create-vuefront-app), which helps you setup your vuefront with ease. 
 
-It will ask you several questions to configure your vuefront app. 
+VueFront consists of the following modules:
+
+1. [vuefront (Github)](https://github.com/vuefront/vuefront)
+2. [vuefront-nuxt (Github)](https://github.com/vuefront/vuefront-nuxt)
+3. [vuefront-cli (Github)](https://github.com/vuefront/vuefront-cli)
+
+For a simpler installation process, we have provided [create-vuefront-app](https://github.com/vuefront/create-vuefront-app), which helps you set up your vuefront with ease. 
+
+It will ask you several questions to configure your VueFront app. 
 
 ### Recommendations
 When installing VueFront, we recommend sticking to the following rules:
 1. using always `yarn` as the default package manager
-2. using `vue cli` as your vue framework for new users and `nuxt` for advanced users.
-
-
+2. using `vue cli` as your Vue framework for new users and `nuxt` for advanced users.

@@ -7,19 +7,19 @@
         <img
           src="https://themes.getbootstrap.com/wp-content/uploads/2019/03/preview_screenshot-600x450.jpg"
         >
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <p>The default theme for VueFront</p>
       </div>
       <div class="col">
         <img src="https://themes.getbootstrap.com/wp-content/uploads/2019/03/screenshot-1.png">
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
       <div class="col">
         <img
           src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/BS_Marketing-768x576.png"
         >
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
     </div>
@@ -29,24 +29,24 @@
         <img
           src="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot.jpg"
         >
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
       <div class="col">
         <img src="https://themes.getbootstrap.com/wp-content/uploads/2019/03/leap-1200x900.png">
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <img src="https://themes.getbootstrap.com/wp-content/uploads/2018/09/screenshot-1.png">
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
       <div class="col">
         <img src="https://themes.getbootstrap.com/wp-content/uploads/2019/02/screenshot.jpg">
-        <h4>Defualt theme</h4>
+        <h4>Default theme</h4>
         <small>The default theme for VueFront</small>
       </div>
     </div>

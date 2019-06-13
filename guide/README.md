@@ -23,7 +23,7 @@ Want to see how your current site looks in VueFront? Follow our simple [5-minute
 
 ## Who is it for?
 
-Anyone from a basic Wordpress & Woocommerce user, OpenCart or Magenta webshop owner to a professional PrestaShop or Shopify Developer. 
+Anyone from a basic Wordpress & Woocommerce user, OpenCart or Magento webshop owner to a professional PrestaShop or Shopify Developer. 
 
 You can install and use VueFront today. The setup takes less than 5 minutes. You won't need to delete anything or make costly migrations. All you need is a computer with Nodejs & Yarn (or NPM) installed and access to your old-fashioned website files. 
 

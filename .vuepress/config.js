@@ -12,14 +12,7 @@ module.exports = {
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
         ['meta', { name: 'google-site-verification', content: 'MhRI5GLxQJ9Oirgo_krVXPsVNaJ-2qqGTRuMkLjherw' }]
     ],
-    plugins: [
-        [
-            '@vuepress/google-analytics',
-            {
-                'ga': 'UA-143051534-1'
-            }
-        ]
-    ],
+    ga: 'UA-143051534-1',
     themeConfig: {
         repo: 'vuefront/vuefront',
         editLinks: true,

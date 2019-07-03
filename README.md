@@ -31,6 +31,14 @@ footer: MIT Licensed | Copyright © 2018-present Dreamvention
 - [VueFront](https://opencart.vuefront.com/)
 - [Admin](https://opencart.vuefront.com/admin)
 
+2. Magento + Blog Megafan demo
+- [VueFront](https://magento.vuefront.com/)
+- [Admin](https://api.magento.vuefront.com/admin)
+
+2. PrestaShop + PrestaBlog demo
+- [VueFront](https://prestashop.vuefront.com/)
+- [Admin](https://prestashop.vuefront.com/admin073v6fp6f)
+
 
 ### Installing is as easy as 1, 2, 3
 

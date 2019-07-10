@@ -1,56 +1,17 @@
 <template>
   <div class="home themes-page">
-    <h1>VueFront Apps</h1>
-    <p>Connect your CMS to VueFront by installing a corresponding VueFront Extensions from the list below.</p>
-    <div class="row">
-      <div class="col">
-        <a href="/cms/wordpress.html">
-          <img src="/img/cms/wordpress.jpg">
-        </a>
-        <h4>Filter</h4>
-        <small>Shop (WooCommerce), Blog</small>
-      </div>
-      <div class="col">
-        <a href="/cms/opencart.html">
-          <img src="/img/cms/opencart.jpg">
-        </a>
-        <h4>OpenCart</h4>
-        <small>Shop, Blog (Blog Module)</small>
-      </div>
-      <div class="col">
-        <img src="/img/cms/drupal.jpg">
-        <h4>Drupal</h4>
-        <small>Coming soon</small>
-      </div>
-      <div class="col">
-        <img src="/img/cms/magento.jpg">
-        <h4>Magento</h4>
-        <small>Coming soon</small>
-      </div>
+    <div class="center">
+      <h1>VueFront AppStore</h1>
+      <p>Connect your CMS to VueFront by installing a corresponding VueFront Extensions from the list below.</p>
     </div>
+    <img src="/img/apps.png" class="apps-img" />
+    <h2>AppStore is in development.</h2>
+    <p>The AppStore is on its way. We are at the stage of designing the architecture of VueFront and preparing for the first Production release. Once we have a production tested version, we will start adding APPs.</p>
 
-    <div class="row">
-      <div class="col">
-        <img src="/img/cms/prestashop.jpg">
-        <h4>Prestashop</h4>
-        <p>Coming soon</p>
-      </div>
-      <div class="col">
-        <img src="/img/cms/shopify.jpg">
-        <h4>Shopify</h4>
-        <small>Coming soon</small>
-      </div>
-      <div class="col">
-        <img src="/img/cms/bigcommerce.jpg">
-        <h4>Bigcommerce</h4>
-        <small>Coming soon</small>
-      </div>
-      <div class="col">
-        <img src="/img/cms/volusion.jpg">
-        <h4>Volusion</h4>
-        <small>Coming soon</small>
-      </div>
-    </div>
+    <p>
+      You can start today by
+      <router-link to="/support.html">contacting us</router-link>to get started with developing the very first VueFront Apps. Once we are out, your apps will be the first in the list.
+    </p>
   </div>
 </template>
 
@@ -63,8 +24,15 @@
   flex: 1;
   padding: 15px;
 }
-.themes-page img {
-  width: 100%;
+.apps-img {
+  width: 75%;
+  display: block;
+  box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 75px auto;
+}
+.center {
+  text-align: center;
 }
 hr {
   margin: 20px 0px;

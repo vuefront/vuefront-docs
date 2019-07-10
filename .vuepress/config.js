@@ -37,6 +37,7 @@ module.exports = {
                     '/cms/',
                     '/cms/wordpress',
                     '/cms/opencart',
+                    '/cms/magento',
                     '/cms/prestashop'
                 ]
             }]

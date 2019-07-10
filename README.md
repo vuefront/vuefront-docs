@@ -11,33 +11,53 @@ heroImage: /logo.png
 actionText: Get Started →
 actionLink: /guide/
 features:
-  - title: You can use it today
+  - title: Use it today
     details: Compatible with Wordpress, Woocommerce, Shopify, Magento, Drupal, Joomla, Opencart and more.
   - title: Build for the future
     details: Single Page application (SPA) and Progressive Web App (PWA) out of the box.
-  - title:  It just works
+  - title:  Just works
     details: We took the liberty of making a complete solution from creating the back-end GraphQL module to building the front-end web app.
 
 footer: MIT Licensed | Copyright © 2018-present Dreamvention
 ---
 
-### See the Demos
+### VueFront Demos
 
-1. Wordpress + WooCommerce demo
-- [VueFront](https://wordpress.vuefront.com/)
-- [Admin](https://wordpress.vuefront.com/wp-admin)
+<div class="features">
+  <div class="feature">
+    <h3>1. Wordpress + WooCommerce demo</h3>
+    <ul>
+      <li><a href="https://wordpress.vuefront.com/" target="_blank">VueFront</a></li>
+      <li><a href="https://wordpress.vuefront.com/wp-admin/" target="_blank">Wordpress Admin</a></li>
+      <li><a href="/cms/wordpress.html">Docs</a></li>
+    </ul>
+  </div>
+  <div class="feature">
+    <h3>2. OpenCart + Blog Module demo</h3>
+    <ul>
+      <li><a href="https://opencart.vuefront.com/" target="_blank">VueFront</a></li>
+      <li><a href="https://opencart.vuefront.com/admin" target="_blank">OpenCart Admin</a></li>
+      <li><a href="/cms/opencart.html">Docs</a></li>
+    </ul>
+  </div>
+  <div class="feature">
+    <h3>3. Magento + Blog Megafan demo</h3>
+    <ul>
+      <li><a href="https://magento.vuefront.com/" target="_blank">VueFront</a></li>
+      <li><a href="https://api.magento.vuefront.com/admin/" target="_blank">Magento Admin</a></li>
+      <li><a href="/cms/magento.html">Docs</a></li>
+    </ul>
+  </div>
+  <div class="feature">
+    <h3>4. PrestaShop + PrestaBlog demo</h3>
+    <ul>
+      <li><a href="https://prestashop.vuefront.com/" target="_blank">VueFront</a></li>
+      <li><a href="https://prestashop.vuefront.com/admin073v6fp6f/" target="_blank">PrestaShop Admin</a></li>
+      <li><a href="/cms/prestashop.html">Docs</a></li>
+    </ul>
+  </div>
+</div>
 
-2. OpenCart + Blog Module demo
-- [VueFront](https://opencart.vuefront.com/)
-- [Admin](https://opencart.vuefront.com/admin)
-
-2. Magento + Blog Megafan demo
-- [VueFront](https://magento.vuefront.com/)
-- [Admin](https://api.magento.vuefront.com/admin)
-
-2. PrestaShop + PrestaBlog demo
-- [VueFront](https://prestashop.vuefront.com/)
-- [Admin](https://prestashop.vuefront.com/admin073v6fp6f)
 
 
 ### Installing is as easy as 1, 2, 3
@@ -62,3 +82,4 @@ yarn dev
 ```
 
 Enjoy your new VueFront!
+

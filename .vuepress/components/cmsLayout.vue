@@ -39,22 +39,22 @@
     </p>
     <div class="row">
       <div class="col">
-        <img src="/img/cms/drupal.jpg" />
+        <img src="/img/cms/drupal.jpg" class="inactive" />
         <h4>Drupal</h4>
         <small>Coming soon</small>
       </div>
       <div class="col">
-        <img src="/img/cms/shopify.jpg" />
+        <img src="/img/cms/shopify.jpg" class="inactive" />
         <h4>Shopify</h4>
         <small>Coming soon</small>
       </div>
       <div class="col">
-        <img src="/img/cms/bigcommerce.jpg" />
+        <img src="/img/cms/bigcommerce.jpg" class="inactive" />
         <h4>Bigcommerce</h4>
         <small>Coming soon</small>
       </div>
       <div class="col">
-        <img src="/img/cms/volusion.jpg" />
+        <img src="/img/cms/volusion.jpg" class="inactive" />
         <h4>Volusion</h4>
         <small>Coming soon</small>
       </div>
@@ -73,6 +73,15 @@
 }
 .themes-page img {
   width: 100%;
+  border-radius: 5px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.themes-page img.inactive {
+  filter: grayscale(1);
+}
+.themes-page img:hover {
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
 }
 hr {
   margin: 20px 0px;

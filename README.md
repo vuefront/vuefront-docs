@@ -3,7 +3,7 @@ title: VueFront
 lang: en-US
 meta:
   - name: description
-    content: Vue powered agnostic SPA frontend for your old fashioned Blog and E-commerce site.
+    content: Vue Powered CMS agnostic SPA & PWA frontend for your old-fashioned Blog and E-commerce site.
   - name: keywords
     content: Vue, VueFront, SPA, PWA, Nuxt, agnostic, frontend, framework
 home: true
@@ -12,7 +12,7 @@ actionText: Get Started →
 actionLink: /guide/
 features:
   - title: Use it today
-    details: Compatible with Wordpress, Woocommerce, Shopify, Magento, Drupal, Joomla, Opencart and more.
+    details: Compatible with Wordpress, Woocommerce, Opencart, Prestashop, Magento, Shopify, Drupal, Joomla, and more.
   - title: Build for the future
     details: Single Page application (SPA) and Progressive Web App (PWA) out of the box.
   - title:  Just works

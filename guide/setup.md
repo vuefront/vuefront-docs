@@ -43,7 +43,7 @@ Didn't find a `CMS Connect` App for your current website. No biggy. Simply [send
 VueFront is a Single page application that needs to be hosted on a NodeJs server for Server-side rendering. It requires the following:
 
 - nodejs >= 8
-- yarn (or nmp)
+- yarn (or npm)
 
 After you have installed the CMS extension, activated it and received the **CMS Connect Url**, you can now install VueFront.
 
